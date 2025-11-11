@@ -1,0 +1,33 @@
+﻿Examen de sécurité des systèmes d’information.
+Présentation du contexte.
+L’entreprise “LaBoite”, fournisseur d’une solution SaaS de gestion de ressources humaines, qu’elle a développée, a réalisé l’acquisition d’un éditeur de logiciels de paye afin de compléter son système. Cette nouvelle acquisition a comme objectif de lui permettre d’étendre son secteur d’activité vers des PME. A l'occasion de la fusion des deux entreprises, il est décidé de conserver les deux équipes de développement, l’une positionnée à Paris et l’autre à Nantes. Afin d’optimiser l’activité de développement, ils ont mis en place un serveur de gestion centralisé du code source, un serveur de bac à sable pour des prototypes, un serveur de développement et un serveur de recettes. Les postes de travail des développeurs sont conservés ainsi que les services d'infogérance local. Les logiciels de développement ainsi que les systèmes d’exploitation des développeurs sont intégralement à base de logiciels libres. Les logiciels de l’administration et des assistantes sont eux sous Windows 10.
+I) Externalisation de l'hébergement.
+L'entreprise a choisi d'externaliser l'hébergement des serveurs centraux nécessaires aux activités de développement et ainsi que ceux nécessaires à l'hébergement du service en ligne de gestion de paie. Afin de sélectionner une entreprise, un cahier des charges CDC est construit.
+Les questions suivantes considèrent que vous assistez le responsable en charge de la partie sécurité du cahier des charges dans sa préparation, ainsi que dans l'analyse des réponses faites par les entreprises soumissionnées.
+Préparation du cahier des charges.
+1- Le rédacteur du CDC a décidé de poser les les exigences suivantes. Indiquez pour chacun si ce positionnement vous semble approprié. 
+a- Pour la sécurité de l'exploitation, le rédacteur propose de demander au candidat de décrire le processus en place pour d'autres clients.
+b- Une gestion du plan de continuité de l'activité devra être décrite dans les réponses.
+2- Parmi les exigences n'ont pas été choisies par le rédacteur pour faire partie du CDC citez deux qui vous semble devoir être ajouté.
+Analyse des réponses.
+1- L'un des soumissionnés indique souhaiter mettre en place une démarche de management de la sécurité du SI et et propose pour cela d'aider “LaBoite”, sa démarche d'analyse globale de la sécurité de son processus de développement. 
+a- En se basant sur une approche MEHARI, il indique dans sa réponse que, dans ce processus, les erreurs de conception ou les incidents logiques ou fonctionnels doivent être analysés afin qu'ils puissent garantir son niveau de service d'hébergement. Ce positionnement vous semble-t-il approprié?
+b- Après avoir réalisé une analyse de la situation, il s'avère que chez hébergeur, deux services fournis sont pas de niveau suffisant par rapport à la cible fixée.
+        i- Les services relatifs à la sécurité des procédures d'exploitation des systèmes de production.
+        j- Les services relatifs au contrôle d'accès au bac à sable. 
+Pour chacun de ces services, quelle stratégie de gestion de risques préconisez-vous? Vous proposerez un plan de réduction du risque pour le service de votre choix.
+
+
+II) Évolution de la solution de paie.
+La solution de paie doit être adaptée afin d'être utilisable dans le contexte de PME.
+Le premier chantier est mis en analyse concerne la gestion des autorisations et de l'authentification.
+La solution de paie acquise n'intégrait pas de rôle. De ce fait, l'utilisateur de la solution avait l'ensemble des droits devait réaliser successivement : 
+* La configuration des éléments de paye (niveau de taxes, de prélèvements, …).
+* La définition des employés ainsi que le montant brut de leur paye.
+* L'enregistrement des éléments variables de chacune des paies (frais, prime, …).
+* L'édition des fiches de paie ainsi que des ordres de virement correspondants. 
+* L'édition des états de relevés de taxes, pour transmission à l'administration. 
+La solution cible en construction devra séparer les différents rôles afin de sécuriser le processus de paie et d'offrir une solution cloud comparable à celle de la concurrence. 
+Sur la base du processus décrit ci-dessus, vous proposerez : 
+* La définition des différents rôles qui seront présentés à la cible dans le logiciel, le RACI résultant est un modèle d'implémentation de ces rôles. 
+* Sachant que les PME ont généralement un service de ressources humaines réduit à un responsable et un gestionnaire. Proposez une répartition des rôles permettant de garantir la séparation des tâches.
