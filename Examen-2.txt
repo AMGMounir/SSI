@@ -1,0 +1,50 @@
+M2 MIAGE Sécurité du Système d'Information
+
+Une réponse qui n'est pas expliquée ne rapporte pas de point.
+
+Présentation du contexte
+Deux étudiants diplômés de la M2 MIAGE d'Evry souhaitent monter une startup visant à produire des applications dans le domaine de la gestion de la flotte de téléphones portables (i.e. gestion des téléphones confiés aux employés ou contractuels d'une entreprise). Remarqués pour la qualité de leur projet, ils obtiennent un rendez-vous avec l'entreprise THALES qui souhaite sécuriser les téléphones de sa branche défense. Afin d'aller plus en avant dans les contacts, THALES commandite un audit sur la sécurité de la startup à un cabinet spécialisé.
+
+I) Phase d'audit
+Dans vos réponses, vous adopterez le positionnement d'un membre du cabinet d'audit sollicité par THALES.
+
+1) Positionnement de l'audit
+
+L'audit va être réalisé en suivant la méthode MEHARI.
+
+a. Quels processus métier de la startup faut-il auditer en priorité ?
+
+b. L'entreprise hésite à considérer la malveillance dans le champ d'audit. Qu'en pensez-vous ?
+
+Parmi les différents services ISO 27002 de sécurité préconisés par la méthode, l'auditeur a choisi de travailler en priorité sur les services de gestion des réseaux locaux.
+
+c. Ce choix vous paraît-il opportun ?
+
+d. Quels services de sécurité ISO 27002 préconisez-vous en complément de ceux déjà choisis (vous donnerez au moins deux services) ?
+
+2) Analyses et préconisations
+
+L'audit a montré la nécessité d'augmenter le niveau de qualité des activités sur deux thématiques principales : le contrôle des droits d'administration et la documentation des procédures d'exploitation. Pour chacun de ces sujets (et dans le contexte donné) vous proposerez une analyse critique des différents types d'actions que propose la méthode MEHARI.
+
+II) Evolutions du SI
+Dans vos réponses, vous adopterez le positionnement d'un des deux étudiants de la startup.
+
+Après la signature du contrat avec THALES, la startup doit revoir son système de contrôle d'accès et de gestion des authentifications afin d'apporter plus de sécurité dans le processus d'attribution des téléphones en vue son implémentation dans l'application.
+
+Ce processus est sous la responsabilité du département téléphonie de THALES, il est composé des étapes suivantes :
+
+Demande d'un nouveau téléphone par un employé/contractuel.
+
+Validation opportunité par le hiérarchique/responsable contractuel.
+
+Puis validation sécurité par le Responsable Sécurité Téléphonie.
+
+Puis validation disponibilité par fournisseur de téléphones.
+
+Attribution du téléphone par le fournisseur au demandeur.
+
+a) établissez le RACI du processus
+
+b) quel modèle de gestion de contrôle d'accès vous semble adapté ? Détaillez votre réponse avec les principaux éléments du contrôle d'accès choisi vis-à-vis du processus d'attribution des téléphones.
+
+c) par rapport au processus métier, au modèle de contrôle d'accès choisi et au contexte technique, quel système d'authentification préconisez-vous ?
